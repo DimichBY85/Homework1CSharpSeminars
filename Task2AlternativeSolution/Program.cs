@@ -21,4 +21,4 @@ while (i < numbers.Length)
        i++; 
     }
 }
-Console.WriteLine(max);
+Console.Write("Максимальное значение имеет число " + max);
