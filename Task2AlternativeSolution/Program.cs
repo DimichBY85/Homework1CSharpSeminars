@@ -14,11 +14,7 @@ while (i < numbers.Length)
     if (numbers[i] > max)
     {
         max = numbers[i];
-        i++;
     }
-    else
-    {
-       i++; 
-    }
+    i++;
 }
 Console.Write("Максимальное значение имеет число " + max);

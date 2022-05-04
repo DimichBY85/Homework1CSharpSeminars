@@ -6,7 +6,6 @@ while (rem <= num)
     if (rem % 2 == 0)
     {
         Console.Write(rem + " ");
-        rem++;
     }
     rem++;
 }
